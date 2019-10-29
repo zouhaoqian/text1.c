@@ -1,10 +1,19 @@
 #include<stdio.h>
 int main (void)
 {
-int x=5,y=7, z=8,m=9,n;
-float k;
-n=x+y+z+m;
-k=n/4.0;
-printf("n is %d, k is %.1f\n");
+    int a,b ,c,d,e;
+    printf("Enter a:\n ");
+    scanf("%d",&a);
+    printf("Enter b:\n ");
+    scanf("%d",&b);
+    printf("Enter c:\n ");
+    scanf("%d",&c);
+    printf("Enter d:\n ");
+    scanf("%d",&d);
+
+float f;
+e=a+b+c+d;
+f=e/4.0;
+printf("e is %d, f is %.1f\n");
 return 0;
 }
