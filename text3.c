@@ -6,6 +6,6 @@ float k;
 n=x+y+z+m;
 k=n/4.0;
 printf("n is %d\n",n);
-printf("k is %1f\n",k);
+printf("k is %.1f\n",k);
 return 0;
 }
