@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(void)
 {
-int i,j,k,m;
+int i,x,y,z;
 for(i=100;i<=999;i++)
-{j=i%10;
-k=i/10%10;
-m=i/100;
-if(i==j*j*j+k*k*k+m*m*m)
+{x=i%10;
+y=i/10%10;
+z=i/100;
+if(i==x*x*x+y*y*y+z*z*z)
 {printf("%d/n",i);}
 printf("/n");
 return 0;
