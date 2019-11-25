@@ -8,6 +8,7 @@ y=i/10%10;
 z=i/100;
 if(i==x*x*x+y*y*y+z*z*z)
 {printf("%d/n",i);}
-printf("/n");
+}
+printf("\n");
 return 0;
 }
