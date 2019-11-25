@@ -7,7 +7,7 @@ for(i=100;i<=999;i++)
 y=i/10%10;
 z=i/100;
 if(i==x*x*x+y*y*y+z*z*z)
-{printf("%d/n",i);}
+{printf("%d\n",i);}
 }
 printf("\n");
 return 0;
